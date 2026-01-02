@@ -1,8 +1,6 @@
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 // Helper function to get label from value
 function getLabelFromValue(
   value: string,
@@ -149,6 +147,18 @@ ${message}
 This email was sent from the Klikkit contact form.
 You can reply directly to this email to respond to ${name}.
     `.trim();
+
+    // Initialize Resend (only at runtime, not during build)
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error("RESEND_API_KEY is not set");
+      return NextResponse.json(
+        { error: "Email service is not configured" },
+        { status: 500 }
+      );
+    }
+
+    const resend = new Resend(apiKey);
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
