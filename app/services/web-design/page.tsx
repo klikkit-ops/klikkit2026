@@ -196,9 +196,9 @@ export default function WebDesignPage() {
 
       <Hero
         title="Websites that convert visitors into customers"
-        description="Beautiful, fast, SEO-optimised websites built for small businesses in South London & Kent. No templates — every site is custom-designed to match your brand and goals."
-        primaryCTA={{ text: "Get a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "View Pricing", href: "#pricing" }}
+        subtitle="Beautiful, fast, SEO-optimised websites built for small businesses in South London & Kent. No templates — every site is custom-designed to match your brand and goals."
+        primaryCta={{ text: "Get a Quote", href: "/contact" }}
+        secondaryCta={{ text: "View Pricing", href: "#pricing" }}
         badge="Web Design"
       />
 

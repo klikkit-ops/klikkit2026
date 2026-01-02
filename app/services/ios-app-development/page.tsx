@@ -241,9 +241,9 @@ export default function iOSAppDevelopmentPage() {
 
       <Hero
         title="Native iOS apps that users love"
-        description="From initial concept to App Store launch, I build native iOS apps using SwiftUI. Clean code, beautiful design, and a smooth path to market."
-        primaryCTA={{ text: "Get a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "View Pricing", href: "#pricing" }}
+        subtitle="From initial concept to App Store launch, we build native iOS apps using SwiftUI. Clean code, beautiful design, and a smooth path to market."
+        primaryCta={{ text: "Get a Quote", href: "/contact" }}
+        secondaryCta={{ text: "View Pricing", href: "#pricing" }}
         badge="iOS Development"
       />
 

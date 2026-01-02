@@ -238,9 +238,9 @@ export default function AIForBusinessPage() {
 
       <Hero
         title="AI that actually saves you time"
-        description="Practical AI systems for small businesses — chatbots that handle customer queries, automations that eliminate busywork, and lead triage that helps you focus on what matters."
-        primaryCTA={{ text: "Get a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "View Use Cases", href: "#use-cases" }}
+        subtitle="Practical AI systems for small businesses — chatbots that handle customer queries, automations that eliminate busywork, and lead triage that helps you focus on what matters."
+        primaryCta={{ text: "Get a Quote", href: "/contact" }}
+        secondaryCta={{ text: "View Use Cases", href: "#use-cases" }}
         badge="AI & Automation"
       />
 
