@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ProcessTimeline } from "@/components/sections/ProcessTimeline";
@@ -112,21 +111,6 @@ export default function AboutPage() {
               </Button>
             </div>
             <div className="relative">
-              <div className="relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 via-primary/10 to-transparent">
-                <Image
-                  src="/images/team.jpg"
-                  alt="Klikkit team at work"
-                  fill
-                  className="object-cover mix-blend-overlay opacity-80"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-                <div className="absolute bottom-8 left-8 right-8">
-                  <p className="text-xl font-semibold text-foreground">
-                    Crafting digital experiences since 2012
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
