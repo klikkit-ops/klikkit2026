@@ -215,11 +215,6 @@ export function Hero({
             <div className="absolute inset-0 border-2 border-dashed border-primary/10 rounded-full animate-spin-slow" />
             <div className="absolute inset-8 border border-primary/20 rounded-full animate-spin-reverse" />
             <div className="absolute inset-16 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
-            
-            {/* Floating dots */}
-            <div className="absolute top-0 left-1/2 w-3 h-3 bg-primary rounded-full animate-pulse" />
-            <div className="absolute bottom-8 right-8 w-2 h-2 bg-primary/60 rounded-full animate-pulse delay-300" />
-            <div className="absolute top-1/4 left-0 w-2 h-2 bg-primary/40 rounded-full animate-pulse delay-500" />
           </div>
         </div>
       </div>
