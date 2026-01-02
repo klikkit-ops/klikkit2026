@@ -254,7 +254,7 @@ Don't skip the website and go straight to landing pages — you'll miss out on l
 
 ---
 
-**Need help deciding?** [Book a free call](/contact) and I'll recommend the right approach for your business.
+**Need help deciding?** [Book a free call](/contact) and we'll recommend the right approach for your business.
     `,
   },
   {
@@ -584,7 +584,7 @@ Give it time — local SEO typically takes 3-6 months to show significant result
 ## Getting Help
 
 Local SEO is ongoing work. If you don't have time to manage it yourself, consider:
-- Monthly SEO retainer (I offer these)
+- Monthly SEO retainer (we offer these)
 - One-time setup with training
 - Quarterly audits and adjustments
 

@@ -161,27 +161,27 @@ const faqs = [
   {
     question: "Are these prices fixed?",
     answer:
-      "These are starting prices for typical projects. Your actual quote depends on your specific requirements. I'll give you a detailed, fixed quote after our discovery call — no surprises.",
+      "These are starting prices for typical projects. Your actual quote depends on your specific requirements. We'll give you a detailed, fixed quote after our discovery call — no surprises.",
   },
   {
     question: "What payment options are available?",
     answer:
-      "Standard terms are 50% upfront, 50% on completion. For larger projects, I can offer milestone-based payments. Monthly payment plans are available for qualifying clients.",
+      "Standard terms are 50% upfront, 50% on completion. For larger projects, we can offer milestone-based payments. Monthly payment plans are available for qualifying clients.",
   },
   {
     question: "What's not included?",
     answer:
-      "Domain names, premium stock images, third-party software subscriptions (e.g., Shopify, email marketing tools), and ongoing hosting (unless on a care plan) are typically not included. I'll make all costs clear upfront.",
+      "Domain names, premium stock images, third-party software subscriptions (e.g., Shopify, email marketing tools), and ongoing hosting (unless on a care plan) are typically not included. We'll make all costs clear upfront.",
   },
   {
     question: "Do you offer discounts for multiple services?",
     answer:
-      "Yes. If you're bundling services (e.g., website + AI chatbot), I can often offer a package discount. Let's discuss during your call.",
+      "Yes. If you're bundling services (e.g., website + AI chatbot), we can often offer a package discount. Let's discuss during your call.",
   },
   {
     question: "What if my project doesn't fit these packages?",
     answer:
-      "No problem — these are starting points. Many projects are custom-scoped. Book a call and I'll put together a tailored quote.",
+      "No problem — these are starting points. Many projects are custom-scoped. Book a call and we'll put together a tailored quote.",
   },
 ];
 

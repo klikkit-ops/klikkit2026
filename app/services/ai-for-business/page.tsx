@@ -66,7 +66,7 @@ const features = [
     icon: GraduationCap,
     title: "Training Included",
     description:
-      "I'll train you and your team to use and maintain the systems. No dependency on external support.",
+      "We'll train you and your team to use and maintain the systems. No dependency on external support.",
   },
 ];
 
@@ -159,22 +159,22 @@ const faqs = [
   {
     question: "What AI tools do you use?",
     answer:
-      "I use a mix of platforms depending on your needs — OpenAI for language models, Make/Zapier for automations, and custom solutions where needed. The goal is to use the right tool for the job, not push a specific vendor.",
+      "We use a mix of platforms depending on your needs — OpenAI for language models, Make/Zapier for automations, and custom solutions where needed. The goal is to use the right tool for the job, not push a specific vendor.",
   },
   {
     question: "Do I need technical knowledge to use AI automations?",
     answer:
-      "No. I build systems that are easy to use and maintain. Training is included in every package, and I document everything so you or your team can manage it independently.",
+      "No. We build systems that are easy to use and maintain. Training is included in every package, and we document everything so you or your team can manage it independently.",
   },
   {
     question: "How do you measure ROI?",
     answer:
-      "Before starting, we'll define clear success metrics — hours saved, leads qualified, response times reduced. I track these after launch to demonstrate value.",
+      "Before starting, we'll define clear success metrics — hours saved, leads qualified, response times reduced. We track these after launch to demonstrate value.",
   },
   {
     question: "Is my data secure?",
     answer:
-      "Absolutely. I follow data protection best practices and can work within GDPR requirements. We'll discuss data handling during the discovery call.",
+      "Absolutely. We follow data protection best practices and can work within GDPR requirements. We'll discuss data handling during the discovery call.",
   },
   {
     question: "Can AI integrations connect to my existing software?",

@@ -22,12 +22,12 @@ const faqs = [
   {
     question: "Which South London areas do you cover?",
     answer:
-      "I work with businesses across South London including Streatham, Dulwich, Brixton, Peckham, Camberwell, Clapham, Balham, Tooting, and surrounding areas. If you're in South London, I can help.",
+      "We work with businesses across South London including Streatham, Dulwich, Brixton, Peckham, Camberwell, Clapham, Balham, Tooting, and surrounding areas. If you're in South London, we can help.",
   },
   {
     question: "Do you meet South London clients in person?",
     answer:
-      "Yes! I'm based in South London and happy to meet at your premises or a local cafe for project kickoffs and key meetings. Most ongoing communication happens over video call for efficiency.",
+      "Yes! We're based in South London and happy to meet at your premises or a local cafe for project kickoffs and key meetings. Most ongoing communication happens over video call for efficiency.",
   },
   {
     question: "How does local SEO help South London businesses?",
@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "What kind of South London businesses do you work with?",
     answer:
-      "I work with all kinds — retail, hospitality, professional services, trades, wellness, and more. If you serve customers in South London and want to grow your online presence, I can help.",
+      "We work with all kinds — retail, hospitality, professional services, trades, wellness, and more. If you serve customers in South London and want to grow your online presence, we can help.",
   },
 ];
 
@@ -81,9 +81,9 @@ export default function SouthLondonPage() {
               Web Design & Digital Services for South London Businesses
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              I help businesses across South London grow their online presence.
+              We help businesses across South London grow their online presence.
               From conversion-optimised websites to time-saving AI automations,
-              I deliver digital solutions that drive real results for local
+              we deliver digital solutions that drive real results for local
               businesses.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function SouthLondonPage() {
       <section className="pb-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-foreground mb-8">
-            Areas I serve in South London
+            Areas we serve in South London
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

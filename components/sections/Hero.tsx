@@ -177,16 +177,6 @@ export function Hero({
               }`}
             >
               <div className="flex items-center gap-2">
-                <div className="flex -space-x-2">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div
-                      key={i}
-                      className="w-8 h-8 rounded-full bg-gradient-to-br from-primary/60 to-primary/20 border-2 border-background flex items-center justify-center text-xs font-medium text-primary-foreground"
-                    >
-                      {String.fromCharCode(64 + i)}
-                    </div>
-                  ))}
-                </div>
                 <span className="ml-2">50+ happy clients</span>
               </div>
               <div className="hidden sm:block w-px h-4 bg-border" />

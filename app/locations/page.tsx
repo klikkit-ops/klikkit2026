@@ -28,9 +28,9 @@ export default function LocationsPage() {
               Serving South London & Kent
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              I work with businesses across South London and Kent, combining
+              We work with businesses across South London and Kent, combining
               local market knowledge with digital expertise. Whether you&apos;re on a
-              busy high street or in a quieter town, I can help you grow online.
+              busy high street or in a quieter town, we can help you grow online.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function LocationsPage() {
 
       <CTABand
         title="Ready to grow your local business?"
-        description="Book a free call to discuss how I can help."
+        description="Book a free call to discuss how we can help."
         variant="primary"
       />
     </>

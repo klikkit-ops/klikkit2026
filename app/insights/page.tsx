@@ -82,7 +82,7 @@ export default function InsightsPage() {
 
       <CTABand
         title="Have a project in mind?"
-        description="Book a free call to discuss how I can help."
+        description="Book a free call to discuss how we can help."
         variant="primary"
       />
     </>

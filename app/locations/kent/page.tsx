@@ -22,12 +22,12 @@ const faqs = [
   {
     question: "Which Kent areas do you cover?",
     answer:
-      "I work with businesses across Kent including Tunbridge Wells, Canterbury, Maidstone, Sittingbourne, Sevenoaks, Ashford, and surrounding areas. If you're in Kent, I can help.",
+      "We work with businesses across Kent including Tunbridge Wells, Canterbury, Maidstone, Sittingbourne, Sevenoaks, Ashford, and surrounding areas. If you're in Kent, we can help.",
   },
   {
     question: "Do you travel to Kent for meetings?",
     answer:
-      "Yes! I'm happy to travel for project kickoffs and key meetings. I'm well-connected to Kent via rail and road. Most ongoing communication happens over video call for efficiency.",
+      "Yes! We're happy to travel for project kickoffs and key meetings. We're well-connected to Kent via rail and road. Most ongoing communication happens over video call for efficiency.",
   },
   {
     question: "How can local SEO help Kent businesses?",
@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "Do you understand the Kent market?",
     answer:
-      "Yes. I've worked with numerous Kent businesses and understand the different dynamics across the county — from the tourism focus in Canterbury to the professional services hub in Tunbridge Wells.",
+      "Yes. We've worked with numerous Kent businesses and understand the different dynamics across the county — from the tourism focus in Canterbury to the professional services hub in Tunbridge Wells.",
   },
 ];
 
@@ -81,9 +81,9 @@ export default function KentPage() {
               Web Design & Digital Services for Kent Businesses
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              I help businesses across Kent build their online presence. From
+              We help businesses across Kent build their online presence. From
               professional services in Tunbridge Wells to tourism businesses in
-              Canterbury, I deliver digital solutions that drive growth.
+              Canterbury, we deliver digital solutions that drive growth.
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function KentPage() {
       <section className="pb-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-foreground mb-8">
-            Areas I serve in Kent
+            Areas we serve in Kent
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

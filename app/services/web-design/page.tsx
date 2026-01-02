@@ -125,22 +125,22 @@ const faqs = [
   {
     question: "Do I need to provide content?",
     answer:
-      "You'll need to provide core information about your business, services, and any specific messaging you want to convey. I can help with copywriting as an add-on service, or work with your existing content to make it web-ready.",
+      "You'll need to provide core information about your business, services, and any specific messaging you want to convey. We can help with copywriting as an add-on service, or work with your existing content to make it web-ready.",
   },
   {
     question: "What platform do you build on?",
     answer:
-      "I typically build with Next.js for maximum performance and SEO, with a user-friendly content management system so you can make updates yourself. For e-commerce, I recommend Shopify or a headless setup depending on your needs.",
+      "We typically build with Next.js for maximum performance and SEO, with a user-friendly content management system so you can make updates yourself. For e-commerce, we recommend Shopify or a headless setup depending on your needs.",
   },
   {
     question: "Will my site rank on Google?",
     answer:
-      "Every site is built with SEO best practices from day one. For local businesses, I also set up Google Business Profile integration and local SEO foundations. However, ranking takes time and depends on competition in your area.",
+      "Every site is built with SEO best practices from day one. For local businesses, we also set up Google Business Profile integration and local SEO foundations. However, ranking takes time and depends on competition in your area.",
   },
   {
     question: "What happens after the site launches?",
     answer:
-      "I offer optional monthly care plans that include hosting, updates, backups, and small changes. Many clients prefer this for peace of mind. Otherwise, I hand over everything and you're free to manage it yourself.",
+      "We offer optional monthly care plans that include hosting, updates, backups, and small changes. Many clients prefer this for peace of mind. Otherwise, we hand over everything and you're free to manage it yourself.",
   },
 ];
 
@@ -204,7 +204,7 @@ export default function WebDesignPage() {
 
       <ServiceFeatureList
         title="Built for results"
-        subtitle="Every website I build is designed with one goal in mind: helping your business grow."
+        subtitle="Every website we build is designed with one goal in mind: helping your business grow."
         features={features}
       />
 

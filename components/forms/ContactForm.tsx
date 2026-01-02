@@ -62,7 +62,7 @@ export function ContactForm() {
           Thanks for reaching out!
         </h3>
         <p className="text-muted-foreground">
-          I&apos;ll get back to you within 24-48 hours to discuss your project.
+          We&apos;ll get back to you within 24-48 hours to discuss your project.
         </p>
       </div>
     );
@@ -166,7 +166,7 @@ export function ContactForm() {
       </Button>
 
       <p className="text-sm text-muted-foreground text-center">
-        I typically respond within 24-48 hours. No spam, ever.
+        We typically respond within 24-48 hours. No spam, ever.
       </p>
     </form>
   );

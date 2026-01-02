@@ -18,7 +18,7 @@ const faqs = [
   {
     question: "What happens after I submit the form?",
     answer:
-      "I'll review your project details and respond within 24-48 hours with some initial thoughts and to arrange a call if it seems like a good fit.",
+      "We'll review your project details and respond within 24-48 hours with some initial thoughts and to arrange a call if it seems like a good fit.",
   },
   {
     question: "Do you offer free consultations?",
@@ -33,12 +33,12 @@ const faqs = [
   {
     question: "Do you work with businesses outside South London & Kent?",
     answer:
-      "Absolutely. While I specialise in local businesses, I work with clients across the UK and internationally. Most of my work is done remotely.",
+      "Absolutely. While we specialise in local businesses, we work with clients across the UK and internationally. Most of our work is done remotely.",
   },
   {
     question: "How quickly can you start?",
     answer:
-      "Typically within 1-2 weeks of signing. For urgent projects, I can sometimes start sooner — just let me know your timeline.",
+      "Typically within 1-2 weeks of signing. For urgent projects, we can sometimes start sooner — just let us know your timeline.",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
               Let&apos;s talk about your project
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Fill out the form below and I&apos;ll get back to you within 24-48
+              Fill out the form below and we&apos;ll get back to you within 24-48
               hours. Or, book a call directly if you prefer.
             </p>
           </div>
@@ -75,28 +75,6 @@ export default function ContactPage() {
 
             {/* Sidebar */}
             <div className="space-y-8">
-              {/* Calendly placeholder */}
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="font-semibold text-foreground mb-4">
-                    Prefer to book directly?
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Skip the form and book a free 15-minute call at a time that
-                    works for you.
-                  </p>
-                  {/* TODO: Replace with actual Calendly embed */}
-                  <div className="bg-muted rounded-lg p-8 text-center">
-                    <p className="text-sm text-muted-foreground">
-                      [Calendly embed placeholder]
-                    </p>
-                    <p className="text-xs text-muted-foreground mt-2">
-                      Add your Calendly link here
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Contact details */}
               <Card>
                 <CardContent className="p-6">

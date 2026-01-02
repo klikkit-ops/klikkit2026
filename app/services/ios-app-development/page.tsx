@@ -48,7 +48,7 @@ const features = [
     icon: Rocket,
     title: "App Store Ready",
     description:
-      "Full support through Apple's review process. I handle submissions, metadata, and any rejections.",
+      "Full support through Apple's review process. We handle submissions, metadata, and any rejections.",
   },
   {
     icon: Bell,
@@ -122,7 +122,7 @@ const appProcessSteps = [
     number: "01",
     title: "Discovery",
     description:
-      "We define your app's goals, features, and target users. I'll help you prioritise what to build first.",
+      "We define your app's goals, features, and target users. We'll help you prioritise what to build first.",
     duration: "1-2 weeks",
   },
   {
@@ -150,7 +150,7 @@ const appProcessSteps = [
     number: "05",
     title: "Launch",
     description:
-      "App Store submission and approval. I handle everything with Apple.",
+      "App Store submission and approval. We handle everything with Apple.",
     duration: "1-2 weeks",
   },
 ];
@@ -169,17 +169,17 @@ const faqs = [
   {
     question: "How long does App Store approval take?",
     answer:
-      "Apple typically reviews apps within 24-48 hours. First-time submissions may take longer. I'll prepare your app to meet all guidelines to minimise the chance of rejection.",
+      "Apple typically reviews apps within 24-48 hours. First-time submissions may take longer. We'll prepare your app to meet all guidelines to minimise the chance of rejection.",
   },
   {
     question: "Do I own the source code?",
     answer:
-      "Yes, 100%. Once the project is complete and paid for, you own all source code, designs, and assets. I can also help you set up your own developer account.",
+      "Yes, 100%. Once the project is complete and paid for, you own all source code, designs, and assets. We can also help you set up your own developer account.",
   },
   {
     question: "What about ongoing maintenance?",
     answer:
-      "iOS releases updates annually, and apps need to be kept compatible. I offer monthly retainer packages that include updates, bug fixes, and small feature additions.",
+      "iOS releases updates annually, and apps need to be kept compatible. We offer monthly retainer packages that include updates, bug fixes, and small feature additions.",
   },
 ];
 

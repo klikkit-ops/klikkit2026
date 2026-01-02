@@ -77,17 +77,17 @@ const faqs = [
   {
     question: "Do you work with businesses outside South London & Kent?",
     answer:
-      "Absolutely. While I specialise in local businesses, I work with clients across the UK and internationally. Most of my work is done remotely.",
+      "Absolutely. While we specialise in local businesses, we work with clients across the UK and internationally. Most of our work is done remotely.",
   },
   {
     question: "What's your payment structure?",
     answer:
-      "Typically 50% upfront to begin work, and 50% on completion. For larger projects, we can arrange milestone-based payments. I also offer monthly payment plans for qualifying clients.",
+      "Typically 50% upfront to begin work, and 50% on completion. For larger projects, we can arrange milestone-based payments. We also offer monthly payment plans for qualifying clients.",
   },
   {
     question: "Do you offer ongoing support?",
     answer:
-      "Yes. I offer monthly care plans for websites, app maintenance packages, and ongoing AI optimisation. Many clients choose to work with me on a retainer basis after their initial project.",
+      "Yes. We offer monthly care plans for websites, app maintenance packages, and ongoing AI optimisation. Many clients choose to work with us on a retainer basis after their initial project.",
   },
 ];
 
@@ -244,7 +244,7 @@ export default function ServicesPage() {
 
       <CTABand
         title="Not sure which service you need?"
-        description="Book a free call and I'll help you figure out the best approach."
+        description="Book a free call and we'll help you figure out the best approach."
         ctaText="Book a Free Call"
         ctaHref="/contact"
         variant="primary"
