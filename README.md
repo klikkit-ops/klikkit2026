@@ -241,15 +241,28 @@ npm start
 
 Ensure your platform supports Node.js 18+ and Next.js.
 
+## Contact Form Setup
+
+The contact form uses [Resend](https://resend.com) to send emails. To set it up:
+
+1. Sign up for a free Resend account at https://resend.com
+2. Get your API key from https://resend.com/api-keys
+3. Add your API key to your environment variables:
+   ```bash
+   RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxx
+   ```
+4. Verify your domain `klikkit.co.uk` in Resend (required to send from `contact@klikkit.co.uk`)
+5. Emails will be sent to `contact@klikkit.co.uk` (which forwards to your inbox)
+
+The contact form sends formatted emails with all submission details. You can reply directly to the emails from your email client.
+
 ## TODO
 
 - [ ] Add actual Calendly embed in `/app/contact/page.tsx`
-- [ ] Connect contact form to backend (API route or external service)
 - [ ] Add real images to replace Unsplash placeholders
 - [ ] Update contact details (phone, email)
 - [ ] Add real testimonials and case studies
 - [ ] Configure analytics (GA4, Plausible, etc.)
-- [ ] Set up form submission handling
 - [ ] Add cookie consent if needed
 
 ## License
