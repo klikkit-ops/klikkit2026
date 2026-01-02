@@ -113,6 +113,96 @@ export const caseStudies: CaseStudy[] = [
     technologies: ["OpenAI", "Make", "HubSpot", "Slack"],
     timeline: "4 weeks",
   },
+  {
+    slug: "mitchells-plumbing",
+    title: "Local Business Website with SEO",
+    client: "Mitchell's Plumbing, Dulwich",
+    service: "Web Design",
+    location: "Dulwich, South London",
+    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=800&fit=crop",
+    summary:
+      "A conversion-focused website with local SEO that doubled enquiries and achieved top 3 Google rankings for key search terms.",
+    challenge:
+      "Mitchell's Plumbing had a basic website that wasn't generating leads. They were losing work to competitors who appeared higher in Google searches. The site had no SEO strategy, slow load times, and no clear call-to-action for potential customers.",
+    solution:
+      "We built a modern, mobile-first website with comprehensive local SEO targeting 'plumber Dulwich' and related searches. The site includes clear service pages, customer testimonials, and an easy-to-use contact form. We also implemented Google Business Profile optimisation and local citation building.",
+    results:
+      "Within 3 months, enquiries increased by 120%. The site now ranks in the top 3 for 'plumber Dulwich' and related local searches. Lead quality improved significantly as the site clearly communicates services and pricing.",
+    metrics: [
+      { label: "Enquiries", value: "+120%" },
+      { label: "Google ranking", value: "Top 3" },
+      { label: "Page load time", value: "1.8s" },
+      { label: "Mobile traffic", value: "+85%" },
+    ],
+    testimonial: {
+      quote:
+        "Klikkit transformed our outdated website into a lead-generating machine. Within 3 months, our enquiries doubled.",
+      author: "Sarah Mitchell",
+      role: "Owner, Mitchell's Plumbing, Dulwich",
+    },
+    technologies: ["Next.js", "TailwindCSS", "Vercel", "Google Analytics"],
+    timeline: "6 weeks",
+  },
+  {
+    slug: "golden-bowl-streatham",
+    title: "Restaurant Ordering App",
+    client: "The Golden Bowl, Streatham",
+    service: "iOS App",
+    location: "Streatham, South London",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&h=800&fit=crop",
+    summary:
+      "A native iOS ordering app that streamlined operations, increased customer orders, and saved staff 8 hours per week.",
+    challenge:
+      "The Golden Bowl was struggling with phone orders during busy periods. Staff were overwhelmed taking orders, leading to mistakes and long wait times. They needed a way to handle more orders efficiently while improving the customer experience.",
+    solution:
+      "We developed a native iOS app with a beautiful, intuitive menu interface, customisation options, and Apple Pay integration. The app sends orders directly to the kitchen display system, reducing errors and wait times. Customers can track their order status and save favourite dishes.",
+    results:
+      "65% of orders now come through the app. Staff save 8 hours per week that were previously spent on phone orders. Order accuracy improved significantly, and customer satisfaction increased with faster service and the convenience of mobile ordering.",
+    metrics: [
+      { label: "Orders via app", value: "65%" },
+      { label: "Staff time saved", value: "8hrs/week" },
+      { label: "Order accuracy", value: "+92%" },
+      { label: "Customer satisfaction", value: "4.8/5" },
+    ],
+    testimonial: {
+      quote:
+        "The iOS app they built for our restaurant has streamlined our ordering process. Our staff save hours every week.",
+      author: "Marco Chen",
+      role: "Manager, The Golden Bowl, Streatham",
+    },
+    technologies: ["SwiftUI", "Firebase", "Stripe", "Kitchen Display System API"],
+    timeline: "10 weeks",
+  },
+  {
+    slug: "kent-property-services",
+    title: "Customer Support Chatbot",
+    client: "Kent Property Services",
+    service: "AI Automation",
+    location: "Kent, UK",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=800&fit=crop",
+    summary:
+      "An AI-powered chatbot that handles 70% of customer queries automatically, with responses in under 30 seconds.",
+    challenge:
+      "Kent Property Services was receiving hundreds of customer queries daily about property availability, viewing times, and application processes. The team was spending hours answering repetitive questions, leaving less time for high-value tasks like property viewings and negotiations.",
+    solution:
+      "We implemented an intelligent chatbot powered by OpenAI that understands property-related queries and can answer questions about availability, pricing, viewing schedules, and application requirements. The bot integrates with their property management system to provide real-time information and can escalate complex queries to human agents.",
+    results:
+      "The chatbot now handles 70% of all customer queries automatically, with an average response time of under 30 seconds. The team can focus on property viewings and client relationships. Customer satisfaction improved as queries are answered instantly, even outside business hours.",
+    metrics: [
+      { label: "Queries handled", value: "70%" },
+      { label: "Response time", value: "<30s" },
+      { label: "Time saved weekly", value: "12hrs" },
+      { label: "Customer satisfaction", value: "4.7/5" },
+    ],
+    testimonial: {
+      quote:
+        "The AI chatbot handles 70% of our customer queries now. We can actually focus on growing the business.",
+      author: "Lisa Thompson",
+      role: "Director, Kent Property Services",
+    },
+    technologies: ["OpenAI", "Make", "Property Management API", "WhatsApp Business"],
+    timeline: "5 weeks",
+  },
 ];
 
 export function getCaseStudy(slug: string): CaseStudy | undefined {
